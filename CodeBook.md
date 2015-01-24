@@ -49,68 +49,129 @@ Description of variables in the resulting tidy data set:
 + **timeBodyAccelerationMeanZ** - Mean of Body Acceleration along Z axis measured in time domain (numeric)
   - within [-1,1]
 + **timeBodyAccelerationStdX** - Standard Deviation of Body Acceleration along X axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeBodyAccelerationStdY** - Standard Deviation of Body Acceleration along Y axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeBodyAccelerationStdZ** - Standard Deviation of Body Acceleration along Z axis measured in time domain (numeric)
-+ **timeGravityAccelerationMeanX** - Mean of Gravity Acceleration along X axis measured in time domain (numeric) 
+  - within [-1,1]
++ **timeGravityAccelerationMeanX** - Mean of Gravity Acceleration along X axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeGravityAccelerationMeanY** - Mean of Gravity Acceleration along Y axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeGravityAccelerationMeanZ** - Mean of Gravity Acceleration along Z axis measured in time domain (numeric)
-+ **timeGravityAccelerationStdX** - Standard Deviation of Gravity Acceleration along X axis measured in time domain (numeric) 
-+ **timeGravityAccelerationStdY** - Standard Deviation of Gravity Acceleration along Y axis measured in time domain (numeric) 
+  - within [-1,1]
++ **timeGravityAccelerationStdX** - Standard Deviation of Gravity Acceleration along X axis measured in time domain
+(numeric) 
+  - within [-1,1]
++ **timeGravityAccelerationStdY** - Standard Deviation of Gravity Acceleration along Y axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeGravityAccelerationStdZ** - Standard Deviation of Gravity Acceleration along Z axis measured in time domain (numeric)
-+ **timeBodyAccelerationJerkMeanX** - Mean of Body Acceleration Jerk along X axis measured in time domain (numeric) 
+  - within [-1,1]
++ **timeBodyAccelerationJerkMeanX** - Mean of Body Acceleration Jerk along X axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeBodyAccelerationJerkMeanY** - Mean of Body Acceleration Jerk along Y axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeBodyAccelerationJerkMeanZ** - Mean of Body Acceleration Jerk along Z axis measured in time domain (numeric) 
+  - within [-1,1]
 + **timeBodyAccelerationJerkStdX** - Standard Deviation of Body Acceleration Jerk along X axis measured in time domain (numeric)
+  - within [-1,1]
 + **timeBodyAccelerationJerkStdY** - Standard Deviation of Body Acceleration Jerk along Y axis measured in time domain (numeric)
-+ **timeBodyAccelerationJerkStdZ** - Standard Deviation of Body Acceleration Jerk along Z axis measured in time domain (numeric) 
-+ timeBodyGyroscopeMeanX - Mean of Body Gyroscopic motion along X axis measured in time domain (numeric) 
-+ timeBodyGyroscopeMeanY - Mean of Body Gyroscopic motion along Y axis measured in time domain (numeric)
-+ timeBodyGyroscopeMeanZ - Mean of Body Gyroscopic motion along Z axis measured in time domain (numeric)
-+ timeBodyGyroscopeStdX - Standard Deviation of Body Gyroscopic motion along X axis measured in time domain (numeric)
-+ timeBodyGyroscopeStdY - Standard Deviation of Body Gyroscopic motion along Y axis measured in time domain (numeric)
-+ timeBodyGyroscopeStdZ - Standard Deviation of Body Gyroscopic motion along Z axis measured in time domain (numeric)
-+ timeBodyGyroscopeJerkMeanX - Mean of Body Gyroscopic Jerk along X axis measured in time domain (numeric)
-+ timeBodyGyroscopeJerkMeanY - Mean of Body Gyroscopic Jerk along Y axis measured in time domain (numeric)
-+ timeBodyGyroscopeJerkMeanZ - Mean of Body Gyroscopic Jerk along Z axis measured in time domain (numeric)
-+ timeBodyGyroscopeJerkStdX - Standard Deviation of Body Gyroscopic Jerk along X axis measured in time domain (numeric)
-+ timeBodyGyroscopeJerkStdY - Standard Deviation of Body Gyroscopic Jerk along Y axis measured in time domain (numeric)
-+ timeBodyGyroscopeJerkStdZ - Standard Deviation of Body Gyroscopic Jerk along Z axis measured in time domain (numeric)
-+ timeBodyAccelerationMagnitudeMean - Mean of Body Acceleration Magnitude measured in time domain (numeric)
-+ timeBodyAccelerationMagnitudeStd - Standard Deviation of Body Acceleration Magnitude measured in time domain (numeric)
-+ timeGravityAccelerationMagnitudeMean - Mean of Gravity Acceleration Magnitude measured in time domain (numeric)
-+ timeGravityAccelerationMagnitudeStd - Standard Deviation of Gravity Acceleration Magnitude measured in time domain (numeric)
-+ timeBodyAccelerationJerkMagnitudeMean - Mean of Body Acceleration Jerk Magnitude measured in time domain (numeric)
-+ timeBodyAccelerationJerkMagnitudeStd - Standard Deviation of Body Acceleration Jerk Magnitude measured in time domain (numeric)
-+ timeBodyGyroscopeMagnitudeMean - Mean of Body Gyroscopic motion Magnitude measured in time domain (numeric)
-+ timeBodyGyroscopeMagnitudeStd - Standard Deviation of Body Gyroscopic motion Magnitude measured in time domain (numeric)
-+ timeBodyGyroscopeJerkMagnitudeMean - Mean of Body Gyroscopic Jerk Magnitude measured in time domain (numeric)
-+ timeBodyGyroscopeJerkMagnitudeStd - Standard Deviation of Body Gyroscopic Jerk Magnitude measured in time domain (numeric)
-+ frequencyBodyAccelerationMeanX - Mean of Body Acceleration along X axis measured in frequency domain (numeric)
-frequencyBodyAccelerationMeanY - Mean of Body Acceleration along Y axis measured in frequency domain (numeric)
-frequencyBodyAccelerationMeanZ - Mean of Body Acceleration along Z axis measured in frequency domain (numeric)
-frequencyBodyAccelerationStdX - Standard Deviation of Body Acceleration along X axis measured in frequency domain (numeric)
-frequencyBodyAccelerationStdY - Standard Deviation of Body Acceleration along Y axis measured in frequency domain (numeric)
-frequencyBodyAccelerationStdZ - Standard Deviation of Body Acceleration along Z axis measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkMeanX - Mean of Body Acceleration Jerk along X axis measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkMeanY - Mean of Body Acceleration Jerk along Y axis measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkMeanZ - Mean of Body Acceleration Jerk along Z axis measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkStdX - Standard Deviation of Body Acceleration Jerk along X axis measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkStdY - Standard Deviation of Body Acceleration Jerk along Y axis measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkStdZ - Standard Deviation of Body Acceleration Jerk along Z axis measured in frequency domain (numeric)
-frequencyBodyGyroscopeMeanX - Mean of Body Gyroscopic motion along X axis measured in frequency domain (numeric)
-frequencyBodyGyroscopeMeanY - Mean of Body Gyroscopic motion along Y axis measured in frequency domain (numeric)
-frequencyBodyGyroscopeMeanZ - Mean of Body Gyroscopic motion along Z axis measured in frequency domain (numeric)
-frequencyBodyGyroscopeStdX - Standard Deviation of Body Gyroscopic motion along X axis measured in frequency domain (numeric)
-frequencyBodyGyroscopeStdY - Standard Deviation of Body Gyroscopic motion along Y axis measured in frequency domain (numeric)
-frequencyBodyGyroscopeStdZ - Standard Deviation of Body Gyroscopic motion along Z axis measured in frequency domain (numeric)
-frequencyBodyAccelerationMagnitudeMean - Mean of Body Acceleration Magnitude measured in frequency domain (numeric)
-frequencyBodyAccelerationMagnitudeStd - Standard Deviation of Body Acceleration Magnitude measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkMagnitudeMean - Mean of Body Acceleration Jerk Magnitude measured in frequency domain (numeric)
-frequencyBodyAccelerationJerkMagnitudeStd - Standard Deviation of Body Acceleration Jerk Magnitude measured in frequency domain (numeric)
-frequencyBodyGyroscopeMagnitudeMean - Mean of Body Gyroscopic motion Magnitude measured in frequency domain (numeric)
-frequencyBodyGyroscopeMagnitudeStd - Standard Deviation of Body Gyroscopic motion Magnitude measured in frequency domain (numeric)
-frequencyBodyGyroscopeJerkMagnitudeMean - Mean of Body Gyroscopic Jerk Magnitude measured in frequency domain (numeric)
-frequencyBodyGyroscopeJerkMagnitudeStdDev - Standard Deviation of Body Gyroscopic Jerk Magnitude measured in frequency domain (numeric) 
-
-
-
+  - within [-1,1]
++ **timeBodyAccelerationJerkStdZ** - Standard Deviation of Body Acceleration Jerk along Z axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeMeanX** - Mean of Body Gyroscopic motion along X axis measured in time domain (numeric) 
+  - within [-1,1]
++ **timeBodyGyroscopeMeanY** - Mean of Body Gyroscopic motion along Y axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeMeanZ** - Mean of Body Gyroscopic motion along Z axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeStdX** - Standard Deviation of Body Gyroscopic motion along X axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeStdY** - Standard Deviation of Body Gyroscopic motion along Y axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeStdZ** - Standard Deviation of Body Gyroscopic motion along Z axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkMeanX** - Mean of Body Gyroscopic Jerk along X axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkMeanY** - Mean of Body Gyroscopic Jerk along Y axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkMeanZ** - Mean of Body Gyroscopic Jerk along Z axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkStdX** - Standard Deviation of Body Gyroscopic Jerk along X axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkStdY** - Standard Deviation of Body Gyroscopic Jerk along Y axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkStdZ** - Standard Deviation of Body Gyroscopic Jerk along Z axis measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyAccelerationMagnitudeMean** - Mean of Body Acceleration Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyAccelerationMagnitudeStd** - Standard Deviation of Body Acceleration Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeGravityAccelerationMagnitudeMean** - Mean of Gravity Acceleration Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeGravityAccelerationMagnitudeStd** - Standard Deviation of Gravity Acceleration Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyAccelerationJerkMagnitudeMean** - Mean of Body Acceleration Jerk Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyAccelerationJerkMagnitudeStd** - Standard Deviation of Body Acceleration Jerk Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeMagnitudeMean** - Mean of Body Gyroscopic motion Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeMagnitudeStd** - Standard Deviation of Body Gyroscopic motion Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkMagnitudeMean** - Mean of Body Gyroscopic Jerk Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **timeBodyGyroscopeJerkMagnitudeStd** - Standard Deviation of Body Gyroscopic Jerk Magnitude measured in time domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationMeanX** - Mean of Body Acceleration along X axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationMeanY** - Mean of Body Acceleration along Y axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationMeanZ** - Mean of Body Acceleration along Z axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationStdX** - Standard Deviation of Body Acceleration along X axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationStdY** - Standard Deviation of Body Acceleration along Y axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationStdZ** - Standard Deviation of Body Acceleration along Z axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkMeanX** - Mean of Body Acceleration Jerk along X axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkMeanY** - Mean of Body Acceleration Jerk along Y axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkMeanZ** - Mean of Body Acceleration Jerk along Z axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkStdX** - Standard Deviation of Body Acceleration Jerk along X axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkStdY** - Standard Deviation of Body Acceleration Jerk along Y axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkStdZ** - Standard Deviation of Body Acceleration Jerk along Z axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeMeanX** - Mean of Body Gyroscopic motion along X axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeMeanY** - Mean of Body Gyroscopic motion along Y axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeMeanZ** - Mean of Body Gyroscopic motion along Z axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeStdX** - Standard Deviation of Body Gyroscopic motion along X axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeStdY** - Standard Deviation of Body Gyroscopic motion along Y axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeStdZ** - Standard Deviation of Body Gyroscopic motion along Z axis measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationMagnitudeMean** - Mean of Body Acceleration Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationMagnitudeStd** - Standard Deviation of Body Acceleration Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkMagnitudeMean** - Mean of Body Acceleration Jerk Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyAccelerationJerkMagnitudeStd** - Standard Deviation of Body Acceleration Jerk Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeMagnitudeMean** - Mean of Body Gyroscopic motion Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeMagnitudeStd** - Standard Deviation of Body Gyroscopic motion Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeJerkMagnitudeMean** - Mean of Body Gyroscopic Jerk Magnitude measured in frequency domain (numeric)
+  - within [-1,1]
++ **frequencyBodyGyroscopeJerkMagnitudeStd** - Standard Deviation of Body Gyroscopic Jerk Magnitude measured in frequency domain (numeric) 
+  - within [-1,1]
